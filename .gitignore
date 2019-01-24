@@ -1,0 +1,19 @@
+# Python specific files #
+#########################
+/build
+/dist
+*.egg
+/*.egg-info
+*.pyc
+*.pyo
+
+# Editor files #
+################
+*~
+*$
+.vscode
+.idea
+
+# OS specific files #
+#####################
+.DS_Store
