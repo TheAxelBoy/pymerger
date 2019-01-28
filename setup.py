@@ -13,7 +13,7 @@ with codecs.open('README.rst', 'r', 'utf-8') as fd:
     long_description = fd.read()
 
 setup(
-    name="PyMerger",
+    name="pymerger",
     version=pymerger.__version__,
     url="https://github.com/TheAxelBoy/pymerger",
     author="Alex-Christian Lazau",

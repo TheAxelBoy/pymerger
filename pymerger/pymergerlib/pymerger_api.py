@@ -8,17 +8,17 @@ from argparse import Namespace
 from pymerger.pymergerlib.file_merger import FileMerger
 
 
-def Merge(config):
+def merge_with_config(config):
     merger = FileMerger(config)
     merger.merge()
 
 
-def MergeFiles(paths,
-               name="merged.py",
-               no_format=False,
-               recursive=False,
-               debug=False,
-               ignore=None):
+def merge_files(paths,
+                name="merged.py",
+                no_format=False,
+                recursive=False,
+                debug=False,
+                ignore=None):
     args = Namespace(
         paths=paths,
         name=name,
@@ -26,4 +26,4 @@ def MergeFiles(paths,
         recursive=recursive,
         debug=debug,
         ignore=ignore)
-    Merge(args)
+    merge_with_config(args)

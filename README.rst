@@ -1,7 +1,7 @@
-PyMerger
+pymerger
 ========
 
-PyMerger merges multiple python source files into one
+pymerger merges multiple python source files into one
 source file and resolves simple local imports.
 
 Example

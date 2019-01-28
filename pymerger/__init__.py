@@ -74,7 +74,7 @@ def main(argv):
         print('pymerger {}'.format(__version__))
         return 0
 
-    Merge(args)
+    merge_with_config(args)
     return 0
 
 
